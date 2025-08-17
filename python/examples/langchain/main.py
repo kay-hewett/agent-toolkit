@@ -11,7 +11,7 @@ from stripe_agent_toolkit.langchain.toolkit import StripeAgentToolkit
 load_dotenv()
 
 llm = ChatOpenAI(
-    model="gpt-4o",
+    model="gpt-4o-mini",
 )
 
 stripe_agent_toolkit = StripeAgentToolkit(
